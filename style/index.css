@@ -52,7 +52,7 @@ body {
     line-height: 1.5;    
     color: #4f4f4f;
     font-family: 'Ubuntu', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #2C394B;
 }
 
@@ -73,13 +73,18 @@ p {
     font-size: 2rem;
 }
 
-button {
+a {
+    text-decoration: none;
+}
+
+.button {
     width: 10%;
     font-size: 2rem;
     background-color: #2C394B;
     border: 1px solid #C3BA85;
     color: #fff;
-    padding: .25%;
+    padding: .5%;
+    text-decoration: none;
 }
 
 /* Helper Classes */
@@ -108,7 +113,6 @@ button {
 
 .links a {
     padding: 0 2%;
-    text-decoration: none;
     color: #2C394B;
     font-size: 2rem;
 }
@@ -136,8 +140,9 @@ button {
     justify-content: center;
 }
 
-.top-text button{
-    width: 30%
+.top-text .button{
+    width: 30%;
+    padding: 1% 2%;
 }
 
 /* Project Styles */
@@ -152,11 +157,13 @@ button {
 
 .project {
     width: 30%;
+    padding: 1% 0;
 }
 
 .image1 {
     background-image: url(../images/Pine.jpg);
     height: 60vh;
+    padding: 1% 0;
 }
 
 .image2 {
@@ -176,13 +183,27 @@ button {
 }
 
 .image5 {
-    background-image: url(../images/moon.jpg);
+    background-image: url(../images/mountainbike.jpg);
     height: 60vh;
 }
 
 .image6 {
-    background-image: url(../images/moon.jpg);
+    background-image: url(../images/weights.jpg);
     height: 60vh;
 }
 
 /* Footer Styles */
+
+.bottom {
+    background-color: #fff;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socials  {
+    margin: 1% 0 0;
+}
