@@ -1,1 +1,135 @@
-/* Add CSS styling here */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Universal Styling */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border 1px solid grey;
+}
+
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;    
+    color: #4f4f4f;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid red;
+    background-color: #2C394B;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #FF4C29;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #2C394B;
+    font-weight: bold;
+}
+
+button {
+    width: 10%;
+    font-size: 2rem;
+    background-color: #2C394B;
+    border: 1px solid #FF4C29;
+    color: #fff;
+    padding: .25%;
+}
+
+/* Helper Classes */
+
+.bgimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header Styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1% 1%;
+    align-items: center;
+    width: 100%;
+}
+
+.links {
+    width: 20%;
+    padding-right: 0;
+}
+
+.links a {
+    padding: 0 2%;
+    text-decoration: none;
+    color: #2C394B;
+    font-size: 2rem;
+}
+
+.links a:hover {
+    color:#FF4C29;
+}
+
+/* Top Styling */
+
+#home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.top {
+    background-image: url(../images/Weights.jpg);
+    background-position: center;
+    width: 100%; 
+    margin: 2% 2%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-text button{
+    width: 20%
+}
