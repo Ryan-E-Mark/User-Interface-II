@@ -142,7 +142,7 @@ a {
 
 .top-text .button{
     width: 30%;
-    padding: 1% 2%;
+    padding: 1% 3%;
 }
 
 /* Project Styles */
@@ -206,4 +206,10 @@ a {
 
 .socials  {
     margin: 1% 0 0;
+    color: #2C394B;
+    font-size: 2rem;
+}
+
+.socials a:hover {
+    color: #C3BA85;
 }
