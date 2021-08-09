@@ -226,6 +226,9 @@ a {
 
 /* Media - 500px */
 @media (max-width: 500px) {
+    a {
+        font-size: 1rem;
+    }
     .navbar {
         flex-wrap: wrap;
         align-items: center;
@@ -248,11 +251,31 @@ a {
         margin: .15% 0;
     }
     .top {
-        height: 50vh;
+        height: 40vh;
         margin-top: 60%;
+        padding-bottom: 1%;
     }
     h1 {
         font-size: 4rem;
     }
-    
+    #projects {
+        margin-bottom: 2%;
+    }
+    .project {
+        margin: .2% .1%;
+        width: 45%;
+    }
+    .project p {
+        font-size: 1rem;
+    }
+    #home {
+        height: 80vh;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 20vh;
+    }
+    .bottom .button {
+        width: 30%;
+        margin-top: 4%;;
+    }
 }   
