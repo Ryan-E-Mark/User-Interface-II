@@ -221,18 +221,40 @@ a {
 
 /* Media - 800px */
 @media (max-width: 800px) {
-
+    .navbar .links {
+        width: 45%;
+        margin-right: 0;
+    }
+    .top {
+        height: 60vh;
+        margin-top: 10%;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    #home {
+        height: 75vh;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 30vh;
+        background-position: center;
+    }
+    .project p {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .bottom .button {
+        width: 20%;
+    }
 }
 
 /* Media - 500px */
 @media (max-width: 500px) {
-    a {
-        font-size: 1rem;
-    }
     .navbar {
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
+        justify-content: center;
     }
     .webname {
         width: 100%;
