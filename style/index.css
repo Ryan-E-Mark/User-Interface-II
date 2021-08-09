@@ -115,6 +115,9 @@ a {
     padding: 0 2%;
     color: #2C394B;
     font-size: 2rem;
+    border: 1px solid #C3BA85;
+    background-color: #fff;
+    
 }
 
 .links a:hover {
@@ -213,3 +216,88 @@ a {
 .socials a:hover {
     color: #C3BA85;
 }
+
+/* Media Queries Styles */
+
+/* Media - 800px */
+@media (max-width: 800px) {
+    .navbar .links {
+        width: 45%;
+        margin-right: 0;
+    }
+    .top {
+        height: 60vh;
+        margin-top: 10%;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    #home {
+        height: 75vh;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 30vh;
+        background-position: center;
+    }
+    .project p {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .bottom .button {
+        width: 20%;
+    }
+}
+
+/* Media - 500px */
+@media (max-width: 500px) {
+    .navbar {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .webname {
+        width: 100%;
+    }
+    .webname h2 {
+        font-size: 7rem;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .links a{
+        margin: .15% 0;
+    }
+    .top {
+        height: 40vh;
+        margin-top: 60%;
+        padding-bottom: 1%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    #projects {
+        margin-bottom: 2%;
+    }
+    .project {
+        margin: .2% .1%;
+        width: 45%;
+    }
+    .project p {
+        font-size: 1rem;
+    }
+    #home {
+        height: 80vh;
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 20vh;
+    }
+    .bottom .button {
+        width: 30%;
+        margin-top: 4%;;
+    }
+}   
